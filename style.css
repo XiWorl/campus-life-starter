@@ -1,0 +1,51 @@
+
+header {
+    background-color: lightgray;
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#header-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#header-div h1 {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+
+
+#nav-ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: gray;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+#student-organization h2 {
+    display: flex;
+    justify-content: center;
+}
+#student-organization p {
+    display: flex;
+    justify-content: center;
+}
+
+#organizations-div{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-wrap: balance;
+}
+
+.organization p {
+}
